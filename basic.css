@@ -1,0 +1,152 @@
+body {
+    margin:0;
+    padding-top: 6rem; 
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0em 0em 2em #ccc;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav {
+    height: 100%;
+    padding: 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header nav ul li a {
+  display: block;
+  color: #0079ff;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background-color: #ff0060;
+}
+
+
+.active {
+  background-color: #04AA6D;
+}
+
+header nav ul a img {
+    width: 5rem;
+    height: 4rem;
+}
+
+
+footer {
+    background-color: #0079ff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    clear: both;
+    position: relative;
+  }
+  
+#footer1 {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-bottom: 0.2rem;
+    text-align: right;
+    margin-right: 1rem;
+    font-weight: 700;
+  }
+  
+footer #footer2 {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-bottom: 0.2rem;
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: -2rem;
+    font-weight:700;
+  }
+  
+  
+  
+.social-media-icons img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.1rem;
+    margin-top: -2rem;
+  }
+  
+ul#breadCrumbs { padding: 10px 16px;
+    list-style: none;
+     }
+
+
+ul#breadCrumbs li { display: inline;
+                    font-size: 1em;
+                       }
+        
+        
+ul#breadCrumbs li+li:before { padding: 8px;
+                              color: black;
+                              content: "/\00a0";
+                                  }
+                                  
+.pageheader{
+    background-color: #0079ff;
+    color: #ffffff;
+}
+
+.pageheader h1{
+    margin-left: 1.5rem;
+}
+
+
+.dark-mode {
+  background-color: #333;
+color: #fff; }
+
+
+.dark-mode .navbar-menu{
+    background-color: #333;
+}
+
+.dark-mode .navbar-menu a{
+    color:#c5e0ff;
+}
+
+.dark-mode #dark-footer{
+  background-color:#234872;
+}
+
+.dark-mode ul#breadCrumbs li+li:before { padding: 8px;
+  color: white;
+  content: "/\00a0";
+}
+								  
+.dark-mode ul#breadCrumbs li a { 
+  color: #0079ff;
+}
+								  
+.dark-mode ul#breadCrumbs li a:visited { 
+	color: #c5e0ff;
+}
+
+.dark-mode .pageheader{
+  background-color: #234872;
+  color: #ffffff;
+} 
+

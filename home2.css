@@ -1,0 +1,563 @@
+@media only screen and (max-width: 600px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    .navbar-menu.show {
+        display: flex;
+    }
+    
+    .navbar-menu li {
+        margin: 0;
+        text-align: center;
+    }
+    
+    .navbar-toggle {
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #ff0060;
+        position: absolute;
+        top : 1rem;
+        right : 4.8rem;
+    }
+
+    .website-name {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .website-name a{
+        color:#0079ff;
+        text-decoration: none;
+        font-size: 1.8rem;
+    }
+
+    .website-name::first-letter, #cd{
+        color: #ff0060; 
+    }
+
+    #grid-home{
+        position:relative;
+        bottom: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar-toggle {
+      display: none;
+    }
+
+    .website-name {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mobile-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #ffffff;
+        box-shadow: 0em 0em 2em #ccc;
+        z-index: 10;
+        padding: 2rem;
+    }
+    .navbar-menu{
+        position: fixed;
+    }
+}
+
+
+
+
+
+
+/* Home image */
+.homeimg img {
+    float: right;
+    height: 100%;
+    width:100%;
+}
+
+#pageTitle {
+    font-size: 3.6rem;
+    color: #0079ff; /* Text color for the header */
+    
+}  
+
+#pageTitle::first-letter, #c{
+    color: #ff0060; 
+}
+
+.text{
+    font-size: 1rem;
+    color: #0079ff; /* Text color for the header */
+    margin-left: 2rem;
+}
+
+.text h3{
+    color: #ff0060;
+    font-weight: bold;
+}
+
+  
+
+.grid-home {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#grid-home  {
+    margin: 1rem; /* Add margin for additional spacing if needed */
+    display: flex; /* Optionally, use flexbox for layout */
+    justify-content: space-between; /* Adjust as needed */
+}
+
+@media only screen and (max-width: 650px) {
+    #grid-home {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center elements horizontally */
+    }
+}
+
+.e {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 0.5rem #ccc;
+    padding-bottom: 0.8rem;
+    background-color: #ffffff;
+}
+
+
+@media only screen and (max-width: 350px) {
+    #pageTitle{
+        font-size: 2.5rem;
+        margin-right: 1.5rem;
+    }
+    .text {
+        font-size: 0.8rem;
+        margin-right: 1.5rem;
+    }
+}
+@media only screen and (min-width: 880px) {
+    #pageTitle{
+        top: 12%;
+    }
+}
+@media only screen and (min-width: 1030px) {
+    #pageTitle {
+        font-size: 4rem;
+        top: 22%;
+    }
+}
+@media only screen and (min-width: 1150px) {
+    #pageTitle {
+        font-size: 4.5rem;
+        top: 32%;
+    }
+}
+
+@media only screen and (min-width: 790px) {
+    .text {
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 880px) {
+    .text {
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width: 880px) {
+    .text {
+        font-size: 1.3rem;
+        top: 30%;
+    }
+}
+@media only screen and (min-width: 1030px) {
+    .text {
+        font-size: 1.5rem;
+        top: 40%;
+    }
+}
+@media only screen and (min-width: 1150px) {
+    .text {
+        font-size: 1.8rem;
+        top: 50%;
+    }
+}
+ 
+@media only screen and (min-width: 1500px) {
+    #pageTitle{
+        font-size: 5.5rem;
+        margin-right: 3.5rem;
+    }
+    .text {
+        font-size: 2.8rem;
+        margin-right: 3.5rem;
+    }
+}
+
+@media only screen and (min-width: 1980px) {
+    #pageTitle{
+        font-size: 6.5rem;
+        margin-right: 4.5rem;
+    }
+    .text {
+        font-size: 3.8rem;
+        margin-right: 4.5rem;
+    }
+}
+
+@media only screen and (min-width: 2550px) {
+    #pageTitle{
+        font-size: 7.5rem;
+        margin-right: 5.5rem;
+    }
+    .text {
+        font-size: 4.8rem;
+        margin-right: 5.5rem;
+    }
+}
+
+
+
+
+  /* Courses */
+  @media only screen and (min-width: 320px) {
+    .grid-container-Courses {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 2rem;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
+    
+}
+
+
+
+@media only screen and (min-width: 550px) {
+    .grid-container-Courses {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 2rem;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
+    
+}
+
+
+
+@media only screen and (min-width: 760px) {
+    .grid-container-Courses {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 2rem;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
+    
+}
+
+
+@media only screen and (min-width: 12804px) {
+    .grid-container-Courses {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 2rem;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
+    
+}
+
+@media only screen and (max-width: 320px) {
+    .grid-container-Courses {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 1rem;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+  #allcorse{
+    background-color:#0079ff;
+  }
+  div h2.corseHedar{
+    font-size: 2rem;
+    color:#ffffff;
+    text-align: center;
+    position: relative;
+    top: 1.5rem;
+  }
+
+  div p.corseHedar{
+    font-size: 1.2rem;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 500;
+  }
+
+  /*.grid-container-Courses {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }*/
+  
+  .course-card {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 0.5rem #ccc;
+    padding-bottom: 0.8rem;
+    background-color: #ffffff;
+  }
+  
+  .course-card a {
+    font-size: 1.6rem;
+  }
+  
+  .course-card p {
+    font-size: 1rem;
+  }
+
+  .course-card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 0.5rem 0.5rem 0 0; 
+  }
+  .course-card p, .course-card h4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .yellow{
+    color:orange
+  }
+
+  .gray{
+    color:#666666;
+  }
+  
+  
+#center-wrapper{
+    text-align: center;
+}
+
+#center-wrapper  a {
+    background-color: #ff0060; 
+    color: white; 
+    font-weight: 600;
+    border: none; 
+    padding: 0.5rem 2rem; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 1.07rem; 
+    margin: 0.8rem 1rem; 
+    cursor: pointer;
+    border-radius: 0.6rem; 
+    transition: background-color 0.3s ease; 
+}
+
+#center-wrapper a:hover {
+    background-color: #00DFA2; 
+}
+
+
+/* Reviews */
+#allreview{
+    background-color: #00DFA2;
+}
+#allreview h2{
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 1.5rem;
+}
+
+.grid-container-review {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.review {
+    flex: 0 0 200px; 
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 0.5rem #fff5f5;
+    padding: 0.8rem; 
+    background-color: white;
+}
+
+
+.review:last-child {
+    margin-right: 0;
+}
+
+.review .avat {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.review em {
+    font-size: 1rem; 
+    position: relative;
+    bottom: 2rem;
+}
+
+.review time {
+    font-size: 0.9rem; 
+    position: relative;
+    bottom: 2rem;
+    left:4rem;
+}
+
+.review q {
+    font-size: 0.9rem; 
+}
+
+.review .reviewimg {
+    width: 100%; 
+}
+
+.review .reviewimg img {
+    width: 100%; 
+    height: auto;
+}
+
+
+
+
+/* Styles for smaller screens */
+@media only screen and (max-width: 500px) {
+    /* Default styles for larger screens */
+    #footer-wraper {
+        display: flex;
+        justify-content: space-between;
+    }
+    #footer-wraper {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center elements horizontally */
+    }
+
+    #footer1,#footer2,.social-media-icons {
+        margin-top: 3rem; /* Add spacing between stacked elements */
+    }
+
+    #footer1{
+        position: relative;
+        bottom: 3rem;
+    }
+}
+  
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+    .navbar-menu{
+        background-color: #333;
+    }
+    .navbar-menu a{
+        color:#c5e0ff;
+    }
+    #dark-footer{
+        background-color:#234872;
+    } 
+    .review{
+        background-color: #333;
+    }
+    .course-card{
+        background-color: #333;
+    }
+    #allreview{
+        background-color:#00dfa44c;
+    }
+    #allcorse{
+        background-color:#0077ff4f;
+    }
+    #center-wrapper  a {
+        background-color: #74002c; 
+    }  
+    #darkModeToggle{
+        background-color: #333; 
+    }
+
+    #pageTitle {
+        color: #c5e0ff; 
+    }  
+    
+    #pageTitle::first-letter, #c{
+        color: #FFC3D9; 
+    }
+    
+    .text{
+        color: #c5e0ff;
+    }
+    
+    .text h3{
+        color: #FFC3D9;
+    }
+
+    .mobile-header {
+        background-color: #333;
+    }    
+    
+}
+
+
+
+.dark-mode button {
+    background-color: rgb(255, 255, 255)efe;
+}
+
+#darkModeToggle{
+    background-color: #ffffff; 
+    font-weight: 600;
+    border: none; 
+    padding: 0.5rem 2rem; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 1.07rem; 
+    margin: 0.8rem 1rem; 
+    cursor: pointer;
+    border-radius: 0.6rem; 
+    transition: background-color 0.3s ease; 
+}
+
+#darkModeToggle img{
+    width:2rem;
+    height: 2rem;
+}
