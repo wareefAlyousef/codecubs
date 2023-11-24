@@ -483,59 +483,54 @@
 }
   
 
-.dark-mode {
+
+.dark-mode .navbar-menu{
     background-color: #333;
-    color: #fff;
-    .navbar-menu{
-        background-color: #333;
-    }
-    .navbar-menu a{
-        color:#c5e0ff;
-    }
-    #dark-footer{
-        background-color:#234872;
-    } 
-    .review{
-        background-color: #333;
-    }
-    .course-card{
-        background-color: #333;
-    }
-    #allreview{
-        background-color:#00dfa44c;
-    }
-    #allcorse{
-        background-color:#0077ff4f;
-    }
-    #center-wrapper  a {
-        background-color: #74002c; 
-    }  
-    #darkModeToggle{
-        background-color: #333; 
-    }
-
-    #pageTitle {
-        color: #c5e0ff; 
-    }  
-    
-    #pageTitle::first-letter, #c{
-        color: #FFC3D9; 
-    }
-    
-    .text{
-        color: #c5e0ff;
-    }
-    
-    .text h3{
-        color: #FFC3D9;
-    }
-
-    .mobile-header {
-        background-color: #333;
-    }    
-    
+}
+.dark-mode .navbar-menu a{
+    color:#c5e0ff;
+}
+.dark-mode #dark-footer{
+    background-color:#234872;
+} 
+.dark-mode .review{
+    background-color: #333;
+}
+.dark-mode .course-card{
+    background-color: #333;
+}
+.dark-mode #allreview{
+    background-color:#00dfa44c;
+}
+.dark-mode #allcorse{
+    background-color:#0077ff4f;
+}
+.dark-mode #center-wrapper  a {
+    background-color: #74002c; 
+}  
+.dark-mode #darkModeToggle{
+    background-color: #333; 
 }
 
+.dark-mode #pageTitle {
+    color: #c5e0ff; 
+}  
+
+.dark-mode #pageTitle::first-letter, #c{
+    color: #FFC3D9; 
+}
+
+.dark-mode .text{
+    color: #c5e0ff;
+}
+
+.dark-mode .text h3{
+    color: #FFC3D9;
+}
+
+.dark-mode .mobile-header {
+    background-color: #333;
+} 
 
 
 .dark-mode button {
