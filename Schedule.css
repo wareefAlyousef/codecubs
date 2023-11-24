@@ -1,0 +1,163 @@
+  
+    table {
+        width: 90%;
+    margin: 2%;
+    margin-bottom: 10%;
+        border-collapse: collapse;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    td{
+        background-color: white;
+        text-align: center;
+    }
+
+    th,
+    td,
+    table {
+        border: 1px solid black;
+        outline: 1px solid transparent;
+    }
+
+    th{
+        width: 10%;
+    }
+
+    td,th{
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        font-size: 100%;
+       
+    }
+
+
+
+    .course:hover {
+        outline-color: black;
+        transform: scale(1.03);
+    }
+
+    .course{
+        transition: transform 0.2s;
+    }
+
+    thead th{
+        background-color:#0077ff;
+        color: white;
+    }
+
+    tbody th{
+        background-color:white;
+        color: #0077ff;
+    }
+
+
+    .break{
+        background-color: #d9d9d9;
+    }
+
+    .table-scroll{
+        overflow-x:auto;
+    }
+
+
+
+
+
+    .robo.course{
+        background-color: #B0D1ED;
+        
+    }
+
+    .python.course{
+        background-color: #F2C80F;
+       
+    }
+
+    .web.course{
+        background-color: #DBDCFF;
+        
+    }
+
+    .robotics.course{
+        background-color: #FFD2E4;
+       
+    }
+
+    .games.course{
+        background-color: #90C3AD;
+       
+    }
+
+    .AI.course{
+        background-color: #B6EAEB;
+     
+    }
+
+
+
+
+
+    @media (max-width: 700px) {
+        
+
+        table {
+            width: 100%;
+            overflow-x: auto;
+        
+        }
+    }
+
+    
+    .dark-mode thead th {
+        background-color: #234872;
+        color: #bddbfe;
+    }
+    
+    .dark-mode tbody th {
+        background-color: #d9d9d9;
+        color: #234872;
+    }
+    
+    .dark-mode .break {
+        background-color: #8d8c8c;
+    }
+    
+    .dark-mode td {
+        background-color: #d9d9d9;
+    }
+    
+    .dark-mode .robo.course {
+        background-color: #6a8eae;
+        color: white;
+    }
+    
+    .dark-mode .python.course {
+        background-color: #786c3a;
+        color: white;
+    }
+    
+    .dark-mode .web.course {
+        background-color: #6465ab;
+        color: white;
+    }
+    
+    .dark-mode .robotics.course {
+        background-color: #a57387;
+        color: white;
+    }
+    
+    .dark-mode .games.course {
+        background-color: #557969;
+        color: white;
+    }
+    
+    .dark-mode .AI.course {
+        background-color: #567b7b;
+        color: white;
+    }

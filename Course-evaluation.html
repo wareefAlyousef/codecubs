@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	
+        <meta charset="UTF-8">
+		<title> Course evaluation  </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="enrollment-evaluation.css">   
+        <link rel="stylesheet" href="basic.css">
+        <script src="dark.js"></script>
+
+		  
+    </head> 
+	
+	<body>  
+	
+	 <header>
+        <nav class="navbar">
+            <ul class="navbar-menu" id="navbarMenu">
+                <li><a href="index.html"><img src="images/logo.png" alt="Logo" id="logo"></a></li>
+                <li><a href="Courses.html" title="the courses that we offer">Courses</a></li>
+                <li><a href="Tutor1.html" title="tutors that work at the center">Tutors</a></li>
+                <li><a href="parentDashboard.html" title="dashboard for parents to monitor and manage their kids ">Parents dashboard</a></li>
+                <li><a href="administrator-dashboard.html" title="dashboard for adminstrator to manage the center">Administrator dashboard</a></li>
+            </ul>
+        </nav>
+            
+			<div class="pageheader">
+			  <br>
+			  <h1 id="pageTitle">Course evaluation</h1>
+			  <br>
+			</div> 
+			
+			<ul id="breadCrumbs">
+				<li><a href="index.html">Homepage</a></li> 
+				<li><a href="parentDashboard.html">Parent's dashboard</a></li> 
+				<li><a href="Course-evaluation.html">Course evaluation </a></li> 
+			</ul>
+			
+			
+			
+        </header>
+        
+	 
+        
+		
+		
+	   
+		
+	   
+	  <main>
+			
+		
+		  
+			<form id = "Form" action = "#" method = "post" >
+
+			   
+				<label class="label" for = "dropdown"> Select the course you want to rate: <br> </label> 
+				
+				  <select name="Course's rate" id="dropdown" required> 
+						 <option disabled selected>Select a course</option>
+						<option value="Robotics">Robotics</option>
+						<option value="Python Programming ">Python Programming</option>
+						<option value="Web Development">Web Development</option>
+						<option value="WDF">Website Design Fundamentals</option>
+						<option value="Games Development">Games Development</option>
+						<option value="Scratch Programming ">Scratch Programming</option>
+						<option value="Problem Solving"> Problem Solving  </option> 
+						<option value="Programming Fundamentals">Programming Fundamentals</option>
+						<option value="Game Design">Game Design</option>
+						<option value="MAD">Mobile App Development </option>
+						<option value="Animation Design">Animation Design</option>
+						<option value="Electronics">Electronics</option>
+				  </select> 
+			    
+				
+				<label id="rate-label" class="label"> <br><br>Tap to rate the course: </label> 
+				  
+					<div class="rate">
+                        <input type="radio" id="star5" name="rate2" value="5" >
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate2" value="4" >
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate2" value="3" >
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate2" value="2" >
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate2" value="1" >
+                        <label for="star1" title="text">1 star</label>
+                    </div>
+                  
+				  
+			    <label class="label" for = "textarea"> <br> Write your feedback: <br> </label> 
+				    <br>
+					<textarea name="feedback"  id="textarea" placeholder="type your feedback here please"></textarea> 
+			      
+				 
+			
+                 <input id="sub" type="submit" value="Submit" >
+					 
+				  <script src="scriptForEval.js"></script>
+
+			
+			</form>
+	      
+		  
+	<div id="buttons">
+
+            <div class="button-container">
+
+
+                <a href="Register-a-new-child.html">  Register a new child
+                    
+                </a>
+
+            </div>
+
+            <div class="button-container">
+                <a href="Course-enrollment.html"> Course enrollment
+                    
+                </a>
+
+            </div>
+
+            <div class="button-container">
+                <a href="Course-evaluation.html"> Course evaluation
+                   
+
+                </a>
+            </div>
+
+
+
+        </div>  
+		
+	    </main>
+		
+		
+     <footer id="dark-footer">
+            <p id="footer1">© 2022, CodeCubs</p>
+            <p id="footer2">
+                CodeCubs <br>
+                4254 North Alia Avenue <br>
+                Riyadh, AZ 85251 KSU <br> 
+                110.405.2734 tel <br>
+                CodeCubs@mail.com
+            </p>
+          
+            
+            <div class="social-media-icons">
+                <a href=""><img src="images/instegram.png" alt="instagram"></a>
+                <a href=""><img src="images/facebook.png" alt="facebook"></a>
+                <a href=""><img src="images/x.png" alt="twitter"></a>
+            </div>
+          
+          </footer>
+    </body>
+	
+</html>

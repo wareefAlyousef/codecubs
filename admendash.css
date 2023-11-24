@@ -1,0 +1,416 @@
+h2#currentDate {
+    font-size: 1.5rem;
+    color: #ffffff; /* Adjust the color as needed */
+    text-align: center;
+    background-color: #ff0060;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+/* Children */
+.allChildren h2{
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 1.3rem;
+}
+
+.allChildren {
+    background-color: #00DFA2;
+}
+
+.grid-container-Children {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    grid-gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.card {
+    position: relative;
+    box-shadow: 0px 0px 0.5rem #fff5f5;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    overflow:hidden;
+    background-color: white;
+}
+
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.3rem; 
+    background-color: #0079ff;
+    border-radius: 0.5rem 0.5rem 0 0; 
+    z-index: 1; 
+}
+
+.card h3 {
+    position: relative;
+    z-index: 2; 
+    font-size: 1.1rem;
+    color: white; 
+}
+
+.card p {
+    font-size: 1rem;
+    z-index: 2; 
+}
+
+.card p.bold1 {
+  font-size: 1rem;
+  z-index: 2; 
+  font-weight: 700;
+}
+
+.card img {
+    width: 60%;
+    height: 45%;
+    border: 0.01rem solid #ccc;
+    border-radius: 50%;
+    z-index: 2; 
+}
+
+.center-wrapper{
+    text-align: center;
+}
+
+.center-wrapper  a {
+    background-color: #ff0060; 
+    color: white; 
+    font-weight: 600;
+    border: none; 
+    padding: 0.5rem 2rem; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 1.07rem; 
+    margin: 0.8rem 1rem; 
+    cursor: pointer; 
+    border-radius: 0.6rem; 
+    transition: background-color 0.3s ease; 
+}
+
+.center-wrapper a:hover {
+    background-color: #0079ff; 
+}
+
+/* Courses */
+ul.remul1 {
+  list-style-type: none;
+}
+
+.allcorse  {
+    background-color: #0079ff;
+}
+
+.allcorse h2{
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 1.3rem;
+}
+.grid-container-Courses {
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+  
+.course-card {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 0.5rem #ccc;
+    padding-bottom: 0.8rem;
+}
+
+.course-card#t1{
+    background-image: url(images/python.jpg);
+    background-size: cover;
+}
+
+.course-card#t2{
+    background-image: url(images/gamedevelpment.jpg);
+    background-size: cover;
+}
+
+.course-card#t3{
+    background-image: url(images/scrach.jpg);
+    background-size: cover;
+}
+
+.course-card#t4{
+    background-image: url(images/ropotex.jpg);
+    background-size: cover;
+}
+
+.course-card#t5{
+    background-image: url(images/webprogramming.jpg);
+    background-size: cover;
+}
+
+.course-card#t6{
+    background-image: url(images/phendementals.jpg);
+    background-size: cover;
+}
+
+.course-card#t7{
+    background-image: url(images/mobile.jpg);
+    background-size: cover;
+}
+
+.course-card#t8{
+    background-image: url(images/Animation.jpg);
+    background-size: cover;
+}
+
+.course-card#t9{
+    background-image: url(images/electronics.jpg);
+    background-size: cover;
+}
+
+.course-card#t10{
+    background-image: url(images/web-design.jpg);
+    background-size: cover;
+}
+
+.course-card#t11{
+    background-image: url(images/game-design.jpg);
+    background-size: cover;
+}
+
+.course-card#t12{
+    background-image: url(images/probelm.jpg);
+    background-size: cover;
+}
+
+  
+.course-card#t1 h3 , #t2 h3, #t5 h3 ,#t11 h3 ,#t12 h3{
+    color: #ffffff;
+    position: relative;
+    top: 0.8rem;
+    margin-left: 1rem;
+}
+
+.course-card#t1 a, #t2 a, #t5 a ,#t11 a ,#t12 a{
+    color: #ffffff;
+    margin-left: 2rem;
+}
+
+.course-card#t6 h3 , #t4 h3, #t3 h3 ,#t7 h3 ,#t8 h3 ,#t9 h3 ,#t10 h3{
+    color: #000000;
+    position: relative;
+    top: 0.8rem;
+    margin-left: 1rem;
+}
+
+.course-card#t6 a ,#t4 a ,#t3 a ,#t7 a ,#t8 a ,#t9 a ,#t10 a{
+    color: #000000;
+    margin-left: 2rem;
+}
+
+ul.r{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.r {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content:space-evenly;
+    margin-top: 2rem;
+    grid-gap: 2rem;
+    background-color: #ffffff;
+    border: 0.1rem;
+    border-collapse: collapse;
+    width: 100%;
+    border: 0.01rem solid #ddd;
+    position: relative;
+    bottom: 1.7rem;
+}
+
+.blue{
+    font-weight: 800;
+    color: #0079ff;
+}
+
+.grean{
+    font-weight: 800;
+    color:#0079ff;
+}
+
+.center-wrapper{
+    text-align: center;
+}
+
+.center-wrapper  button ,button.view-more2{
+    background-color: #ff0060; 
+    color: white; 
+    font-weight: 600;
+    border: none; 
+    padding: 0.5rem 2rem; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 1.07rem; 
+    margin: 0.8rem 1rem; 
+    cursor: pointer; 
+    border-radius: 0.6rem; 
+    transition: background-color 0.3s ease; 
+}
+
+#centerItIs{
+    text-align: center;
+}
+
+.center-wrapper button:hover {
+    background-color: #00DFA2; 
+}
+#centerItIs button:hover{
+    background-color: #00DFA2; 
+}
+
+/* Tutors */
+.remul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    grid-gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    list-style-type: none;
+}
+.alltutors h2{
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 1.3rem;
+}
+.alltutors {
+    background-color: #ff0060;
+}
+.grid-container-Tutors’ {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    grid-gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.card1 {
+    position: relative;
+    box-shadow: 0px 0px 0.5rem #fff5f5;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    overflow:hidden;
+    background-color: white;
+}
+
+
+.card1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2.5rem; 
+    background-color: #0079ff; 
+    border-radius: 0.5rem 0.5rem 0 0; 
+    z-index: 1; 
+}
+
+.card1 a {
+    position: relative;
+    z-index: 2; 
+    font-size: 1.1rem;
+    color: white; 
+}
+
+.card ul {
+    font-size: 1rem;
+    z-index: 2; 
+}
+
+.leftAline{
+    text-align: left;
+    position: relative;
+    bottom: 1rem;
+}
+
+.card1 img {
+    width: 45%;
+    height: 45%;
+    border: 0.01rem solid #ccc;
+    border-radius: 50%;
+    z-index: 2; 
+}
+
+.dark-mode h2#currentDate {
+    background-color: #74002c;
+}
+.dark-mode .allChildren {
+    background-color:#00dfa44c; 
+}
+
+.dark-mode .card {
+    background-color:#333; 
+}
+
+.dark-mode .card::before{
+    background-color:#0077ff4f;
+}
+
+.dark-mode .center-wrapper  a {
+    background-color: #74002c;
+}
+
+.dark-mode .center-wrapper a:hover {
+    background-color: #234872; 
+}
+
+.dark-mode .allcorse{
+    background-color:#0077ff4f
+}
+
+.dark-mode .r{
+    background-color:#333;
+}
+
+.dark-mode .blue,.dark-mode .grean{
+    color: #c5e0ff;
+}
+
+.dark-mode .center-wrapper  button {
+    background-color: #74002c;
+}
+
+.dark-mode .center-wrapper button:hover {
+    background-color: #246655; 
+}
+
+.dark-mode .alltutors{
+    background-color: #74002c;
+}
+
+.dark-mode .card1 {
+    background-color:#333; 
+}
+
+.dark-mode .card1::before{
+    background-color:#0077ff4f;
+}

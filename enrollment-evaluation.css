@@ -1,0 +1,301 @@
+
+
+.gallery { 
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+    }
+  
+  
+div.gallery img {
+    width: 50%;
+    height: 50%;
+    }
+				
+				
+div.desc {
+  padding: 15px;
+  text-align: center;
+  
+  
+}
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    
+    
+  }
+  
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  resize: none;
+}
+
+#select {
+	  width: 10%;
+
+	 
+}
+
+input[type=submit] {
+  background-color:#0079ff; 
+  color: white;
+  padding: 12px 20px;
+   margin: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+
+input[type=submit]:hover {
+  background-color: #ff0060; 
+}
+
+.label {
+  padding: 12px 20px 12px 0;
+  display: flex;
+  position: relative;
+  left:5px;
+  font-size: 120%; 
+  font-weight: bold;
+  
+} 
+
+
+
+
+.rate {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction:row-reverse;
+  margin-left: 4rem;
+ 
+ 
+
+
+}
+
+
+
+
+#buttons2{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  position:relative;
+  max-width: 13rem;
+  left:65rem;
+  bottom:30rem; 
+    
+} 
+
+.rate label , .rate input{
+  margin-left: 0%;
+  padding-left: 0%;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+
+
+
+
+
+
+
+main{
+  margin-left: 3%;
+  margin-right: 3%;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-gap: 3rem;
+ 
+}
+
+
+#buttons{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+ 
+  
+}
+
+
+
+.button-container{
+ 
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.476);
+  cursor: pointer;
+  background-color: #F4F5F6;
+  color: #0077ff;
+ font-size: 1rem;
+  transition:  transform 0.2s;
+  
+  
+  
+  
+}
+
+.button-container:hover {
+ 
+
+
+  border: 1px solid #FF0060;
+  transform: scale(1.05);
+  
+}
+
+.button-container a{
+  text-decoration: none;
+  width: 100%;
+}
+
+
+
+.button-container a:link{
+  color: #0077ff;
+}
+
+.button-container a:visited{
+  color: #0077ff;
+}
+
+
+
+
+
+#rate-label{
+  display: inline;
+}
+
+
+
+textarea{
+    height:200px;
+    display: block;
+    
+}
+
+#courses{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-gap: 2rem;
+  padding: 2rem;
+}
+
+.responsive img{
+    width:100%;
+    height:auto;
+    
+    
+}
+
+
+#drop-filter{
+  display: flex;
+  gap: 5rem;
+}
+
+
+.dark-mode input[type=submit] {
+	
+	background-color:#0077ff4f;
+}
+
+.dark-mode input[type=submit]:hover {
+  background-color: #74002c; 
+}
+  
+.dark-mode textarea{
+    background-color:#333;
+	color: white;
+    
+}
+.dark-mode #dropdown {
+    background-color:#333;
+	color: white;
+    
+}
+
+.dark-mode #select {
+    background-color:#333;
+	color: white;
+    
+}
+
+.dark-mode div.button-container{
+   
+    
+    background-color: #d2d3d4;
+    color: #0077ff;
+}
+
+.dark-mode .button-container a {
+   
+    color: #025bc2;
+}

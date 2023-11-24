@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Administrator Dashboard</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="admendash.css">
+        <link rel="stylesheet" href="basic.css">
+        <script src="admendash.js"></script>
+        <script src="dark.js"></script>
+    </head>
+    <body>
+
+          <header>
+            <nav class="navbar">
+                <ul class="navbar-menu" id="navbarMenu">
+                    <li><a href="index.html"><img src="images/logo.png" alt="Logo" id="logo"></a></li>
+                    <li><a href="Courses.html" title="the courses that we offer">Courses</a></li>
+                    <li><a href="Tutor1.html" title="tutors that work at the center">Tutors</a></li>
+                    <li><a href="parentDashboard.html" title="dashboard for parents to monitor and manage their kids ">Parents dashboard</a></li>
+                    <li><a href="administrator-dashboard.html" title="dashboard for adminstrator to manage the center">Administrator dashboard</a></li>
+                </ul>
+            </nav>
+            <div class="pageheader">
+              <br>
+              <h1 id="pageTitle">Administrator Dashboard</h1>
+              <br>
+            </div>
+            <ul id="breadCrumbs">
+              <li><a href="index.html">Homepage</a></li>
+              <li><a href="administrator-dashboard.html">Administrator dashboard</a></li>
+               </ul>
+        </header>
+        <main>
+            <h2 id="currentDate"></h2>
+        <div class="allChildren">
+    <h2>Children's List</h2>
+    <ul class="remul1 grid-container-Children">
+        <li class="card">
+            <h3>Fatima Almansoori</h3>
+            <img src="images/female2.png" alt="Person Icon">
+            <p class="bold1">Child’s info</p>
+            <p>Age: 8 - Fatima  is an enthusiastic learner who enjoys exploring the world of programming.</p>
+        </li>
+        <li class="card">
+            <h3>Mohammed Alfarsi</h3>
+            <img src="images/male3.png" alt="Person Icon">
+            <p class="bold1">Child’s info</p>
+            <p>Age: 9 - Mohammed is passionate about coding and always eager to learn new concepts.</p>
+        </li>
+        <li class="card">
+            <h3>Aisha Alsabri</h3>
+            <img src="images/female3.png" alt="Person Icon">
+            <p class="bold1">Child’s info</p>
+            <p>Age: 7 - Aisha enjoys coding and experimenting with different programming languages.</p>
+        </li>
+        <li class="card">
+            <h3>Ahmed Alhakim</h3>
+            <img src="images/male3.png" alt="Person Icon">
+            <p class="bold1">Child’s info</p>
+            <p>Age: 10 - Ahmed is curious about technology and enjoys problem-solving through coding. </p>
+        </li>
+        <li class="card">
+            <h3>Leila Alfarsi</h3>
+            <img src="images/female4.png" alt="Person Icon">
+            <p class="bold1">Child’s info</p>
+            <p>Age: 6 - Leila is a young coder with a creative mind. </p>
+        </li>
+        <li class="card">
+            <h3>Omar Alhashmi</h3>
+            <img src="images/male3.png" alt="Person Icon">
+            <p class="bold1">Child’s info</p>
+            <p>Age: 11 - Omar is a dedicated learner who enjoys exploring advanced programming concepts.</p>
+        </li>
+        <li class="card">
+            <h3>Nour Alhamadi</h3>
+            <img src="images/female4.png" alt="Person Icon">
+            <p class="bold1">Child’s info</p>
+            <p>Age: 8 - Nour is passionate about coding and loves building her own digital projects.</p>
+        </li>
+        <li class="card">
+            <h3>Ali Almazroo</h3>
+            <img src="images/male3.png" alt="Person Icon">
+            <p class="bold1">Child’s info</p>
+            <p>Age: 9 - Ali is interested in game development and programming robots. </p>
+        </li>
+    </ul>
+
+    <div class="center-wrapper">
+        <div class="additional-content" style="display: none;">
+            <!-- Additional content goes here -->
+            <ul class="remul1 grid-container-Children">
+                <li class="card">
+                    <h3>Layla Ahmed</h3>
+                    <img src="images/female2.png" alt="Person Icon">
+                    <p class="bold1">Child’s info</p>
+                    <p>Age: 8 - Layla is an enthusiastic learner who enjoys exploring the world of programming.</p>
+                </li>
+                <li class="card">
+                    <h3>Zayd Mohammed</h3>
+                    <img src="images/male3.png" alt="Person Icon">
+                    <p class="bold1">Child’s info</p>
+                    <p>Age: 9 - Zayd is passionate about coding and always eager to learn new concepts.</p>
+                </li>
+                <li class="card">
+                    <h3>Sara Abdullah</h3>
+                    <img src="images/female3.png" alt="Person Icon">
+                    <p class="bold1">Child’s info</p>
+                    <p>Age: 7 - Sara enjoys coding and experimenting with different programming languages.</p>
+                </li>
+                <li class="card">
+                    <h3>Ahmed Aljabri</h3>
+                    <img src="images/male3.png" alt="Person Icon">
+                    <p class="bold1">Child’s info</p>
+                    <p>Age: 10 - Ahmed is curious about technology and enjoys problem-solving through coding. </p>
+                </li>
+                <li class="card">
+                    <h3>Noor Alhassan</h3>
+                    <img src="images/female4.png" alt="Person Icon">
+                    <p class="bold1">Child’s info</p>
+                    <p>Age: 6 - Noor is a young coder with a creative mind. </p>
+                </li>
+                <li class="card">
+                    <h3>Omar Alali</h3>
+                    <img src="images/male3.png" alt="Person Icon">
+                    <p class="bold1">Child’s info</p>
+                    <p>Age: 11 - Omar is a dedicated learner who enjoys exploring advanced programming concepts.</p>
+                </li>
+                <li class="card">
+                    <h3>Mia Nasr</h3>
+                    <img src="images/female4.png" alt="Person Icon">
+                    <p class="bold1">Child’s info</p>
+                    <p>Age: 8 - Mia is passionate about coding and loves building her own digital projects.</p>
+                </li>
+                <li class="card">
+                    <h3>Ahmad Khalid</h3>
+                    <img src="images/male3.png" alt="Person Icon">
+                    <p class="bold1">Child’s info</p>
+                    <p>Age: 9 - Ahmad is interested in game development and programming robots. </p>
+                </li>
+            </ul>
+            <br><br>
+        </div>
+        <a class="view-more3"  data-visible="false">View More</a>
+    </div>
+</div>
+
+        
+        <div class="allcorse">
+          <h2>Courses’ list </h2>
+          <div class="grid-container-Courses">
+            <ul class="remul1">
+              <li>
+            <div class=" course-card" id="t1">
+              <h3>Python programming by Ahmad Alghamdi</h3>
+              <div >
+                <a class="view-more" data-visible="false">Registered Children ▼</a>
+                <div class="additional-content" style="display: none;">
+                    <!-- Additional content goes here -->
+                    <ul class="r">
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">1</div>
+                            <div class="grean">2</div>
+                            <div class="grean">3</div>
+                            <div class="grean">4</div>
+                            <div class="grean">5</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Mohammed Alfarsi</div>
+                            <div>Fatima Almansoori</div>
+                            <div>Aisha Alsabri</div>
+                            <div>Omar Alhashmi</div>
+                            <div>Ahmed Alhakim</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">6</div>
+                            <div class="grean">7</div>
+                            <div class="grean">8</div>
+                            <div class="grean">9</div>
+                            <div class="grean">10</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Leila Alfarsi</div>
+                            <div>Rashid Albalushi</div>
+                            <div>Nour Alhamadi</div>
+                            <div>Layla Alousawi</div>
+                            <div>Mohammed Alkhalaf</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">11</div>
+                            <div class="grean">12</div>
+                            <div class="grean">13</div>
+                            <div class="grean">14</div>
+                            <div class="grean">15</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Amina Alhadi</div>
+                            <div>Khaled Alsaeedi</div>
+                            <div>Khaled Abdullah</div>
+                            <div>Mona Abdullah</div>
+                            <div>Norah Abdullah</div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+              
+                </div> 
+            </li>
+            <li>
+            <div class=" course-card" id="t2">
+              <h3>Games development by Mariam Alyami</h3>
+              <div >
+                <a class="view-more" data-visible="false">Registered Children ▼</a>
+                <div class="additional-content" style="display: none;">
+                    <!-- Additional content goes here -->
+                    <ul class="r">
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">1</div>
+                            <div class="grean">2</div>
+                            <div class="grean">3</div>
+                            <div class="grean">4</div>
+                            <div class="grean">5</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Ali Mahmoud</div>
+                            <div>Fatima Hassan</div>
+                            <div>Omar Alawi</div>
+                            <div>Noura Khalid</div>
+                            <div>Mohammed Saleh</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">6</div>
+                            <div class="grean">7</div>
+                            <div class="grean">8</div>
+                            <div class="grean">9</div>
+                            <div class="grean">10</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Layla Ahmed</div>
+                            <div>Khalid Ali</div>
+                            <div>Rana Abdullah</div>
+                            <div>Khaled Aljabri</div>
+                            <div>Amina Mansour</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">11</div>
+                            <div class="grean">12</div>
+                            <div class="grean">13</div>
+                            <div class="grean">14</div>
+                            <div class="grean">15</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Mia Khalid</div>
+                            <div>Zayd Ahmed</div>
+                            <div>Aisha Abdullah</div>
+                            <div>Khaled Ibrahim</div>
+                            <div>Lina Mansour</div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+            </div>
+          </li>
+          <li>
+            <div class=" course-card" id="t3">
+              <h3>Scratch programming by Waleed Alqahtani</h3>
+              <div >
+                <a class="view-more" data-visible="false">Registered Children ▼</a>
+                <div class="additional-content" style="display: none;">
+                    <!-- Additional content goes here -->
+                    <ul class="r">
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">1</div>
+                            <div class="grean">2</div>
+                            <div class="grean">3</div>
+                            <div class="grean">4</div>
+                            <div class="grean">5</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Ahmed Khalil</div>
+                            <div>Layla Mohamed</div>
+                            <div>Yousef Jamal</div>
+                            <div>Leila Farid</div>
+                            <div>Noura Said</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">6</div>
+                            <div class="grean">7</div>
+                            <div class="grean">8</div>
+                            <div class="grean">9</div>
+                            <div class="grean">10</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Omar Salah</div>
+                            <div>Mia Hani</div>
+                            <div>Rania Nasser</div>
+                            <div>Mohammed Adel</div>
+                            <div>Lina Ahmed</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">11</div>
+                            <div class="grean">12</div>
+                            <div class="grean">13</div>
+                            <div class="grean">14</div>
+                            <div class="grean">15</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Aisha Ali</div>
+                            <div>Khaled Mansour</div>
+                            <div>Sara Ahmed</div>
+                            <div>Amir Abdullah</div>
+                            <div>Mona Nasser</div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+            </div>
+          </li>
+          <li>
+            <div class=" course-card" id="t4">
+              <h3>Robotics by Mariam Alyami</h3>
+              <div >
+                <a class="view-more" data-visible="false">Registered Children ▼</a>
+                <div class="additional-content" style="display: none;">
+                    <!-- Additional content goes here -->
+                    <ul class="r">
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">1</div>
+                            <div class="grean">2</div>
+                            <div class="grean">3</div>
+                            <div class="grean">4</div>
+                            <div class="grean">5</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Zainab Hamdi</div>
+                            <div>Tariq Al-Mansoor</div>
+                            <div>Mariam Khoury</div>
+                            <div>Adam Salim</div>
+                            <div>Samira Fawzi</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">6</div>
+                            <div class="grean">7</div>
+                            <div class="grean">8</div>
+                            <div class="grean">9</div>
+                            <div class="grean">10</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Youssef Aziz</div>
+                            <div>Leila Qasim</div>
+                            <div>Bilal Nizar</div>
+                            <div>Noor Badawi</div>
+                            <div>Kareem Al-Hakim</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">11</div>
+                            <div class="grean">12</div>
+                            <div class="grean">13</div>
+                            <div class="grean">14</div>
+                            <div class="grean">15</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Aisha Abbas</div>
+                            <div>Rayan Hariri</div>
+                            <div>Layla Al-Qasim</div>
+                            <div>Idris Saad</div>
+                            <div>Hana Al-Farsi</div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+            </div>
+          </li>
+          <li>
+            <div class=" course-card" id="t5">
+              <h3>Web development by Ahmad Alghamdi</h3>
+              <div >
+                <a class="view-more" data-visible="false">Registered Children ▼</a>
+                <div class="additional-content" style="display: none;">
+                    <!-- Additional content goes here -->
+                    <ul class="r">
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">1</div>
+                            <div class="grean">2</div>
+                            <div class="grean">3</div>
+                            <div class="grean">4</div>
+                            <div class="grean">5</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Ziad Al-Amiri</div>
+                            <div>Lina Qasim</div>
+                            <div>Ammar Nassar</div>
+                            <div>Fatima Rizk</div>
+                            <div>Amir Al-Talib</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">6</div>
+                            <div class="grean">7</div>
+                            <div class="grean">8</div>
+                            <div class="grean">9</div>
+                            <div class="grean">10</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Dalia Nassif</div>
+                            <div>Omar Al-Mazroui</div>
+                            <div>Nada Al-Khalil</div>
+                            <div>Ali Al-Jabari</div>
+                            <div>Yasmin Al-Zahiri</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">11</div>
+                            <div class="grean">12</div>
+                            <div class="grean">13</div>
+                            <div class="grean">14</div>
+                            <div class="grean">15</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Nasser Al-Mansoori</div>
+                            <div>Salma Al-Ghazali</div>
+                            <div>Hamza Al-Husseini</div>
+                            <div>Yasir Al-Riyami</div>
+                            <div>Safa Al-Farsi</div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+            </div>
+          </li>
+          <li>
+            <div class=" course-card" id="t6">
+              <h3>Programming fundamentals by Majeddah Altamimi</h3>
+              <div >
+                <a class="view-more" data-visible="false">Registered Children ▼</a>
+                <div class="additional-content" style="display: none;">
+                    <!-- Additional content goes here -->
+                    <ul class="r">
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">1</div>
+                            <div class="grean">2</div>
+                            <div class="grean">3</div>
+                            <div class="grean">4</div>
+                            <div class="grean">5</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Farid Al-Abdullah</div>
+                            <div>Rania Al-Khalaf</div>
+                            <div>Kareem Al-Balushi</div>
+                            <div>Lana Al-Mazari</div>
+                            <div>Ziad Al-Jaber</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">6</div>
+                            <div class="grean">7</div>
+                            <div class="grean">8</div>
+                            <div class="grean">9</div>
+                            <div class="grean">10</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Rana Al-Saeed</div>
+                            <div>Ahmed Al-Ahmadi</div>
+                            <div>Nadia Al-Hakim</div>
+                            <div>Majid Al-Zahrani</div>
+                            <div>Huda Al-Hassan</div>
+                        </li>
+                        <li>
+                            <div class="blue">No.</div>
+                            <div class="grean">11</div>
+                            <div class="grean">12</div>
+                            <div class="grean">13</div>
+                            <div class="grean">14</div>
+                            <div class="grean">15</div>
+                        </li>
+                        <li>
+                            <div class="blue">Name</div>
+                            <div>Rana Al-Saeed</div>
+                            <div>Ahmed Al-Ahmadi</div>
+                            <div>Nadia Al-Hakim</div>
+                            <div>Majid Al-Zahrani</div>
+                            <div>Huda Al-Hassan</div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+            </div>
+          </li>
+          </ul> 
+          </div>
+        <br>
+        <div >
+            <div class="additional-content" style="display: none;">
+                <!-- Additional content goes here -->
+                <div class="grid-container-Courses">
+                    <ul class="remul1">
+                      <li>
+                    <div class=" course-card" id="t7">
+                      <h3>Mobile App Development by Reema Alsubai</h3>
+                      <div >
+                        <a class="view-more" data-visible="false">Registered Children ▼</a>
+                        <div class="additional-content" style="display: none;">
+                            <!-- Additional content goes here -->
+                            <ul class="r">
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">1</div>
+                                    <div class="grean">2</div>
+                                    <div class="grean">3</div>
+                                    <div class="grean">4</div>
+                                    <div class="grean">5</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Nabil Al-Qassab</div>
+                                    <div>Zainab Al-Mousa</div>
+                                    <div>Adnan Al-Khatib</div>
+                                    <div>Rasha Al-Abadi</div>
+                                    <div>Walid Al-Jassim</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">6</div>
+                                    <div class="grean">7</div>
+                                    <div class="grean">8</div>
+                                    <div class="grean">9</div>
+                                    <div class="grean">10</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Sarah Al-Qahtani</div>
+                                    <div>Saif Al-Mansoori</div>
+                                    <div>Fadia Al-Mahmoud</div>
+                                    <div>Karim Al-Hadi</div>
+                                    <div>Lubna Al-Azizi</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">11</div>
+                                    <div class="grean">12</div>
+                                    <div class="grean">13</div>
+                                    <div class="grean">14</div>
+                                    <div class="grean">15</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Farid Al-Abdullah</div>
+                                    <div>Rania Al-Khalaf</div>
+                                    <div>Kareem Al-Balushi</div>
+                                    <div>Lana Al-Mazari</div>
+                                    <div>Ziad Al-Jaber</div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                      
+                        </div> 
+                    </li>
+                    <li>
+                    <div class=" course-card" id="t8">
+                      <h3>Animation Design by Salem Albuaij</h3>
+                      <div >
+                        <a class="view-more" data-visible="false">Registered Children ▼</a>
+                        <div class="additional-content" style="display: none;">
+                            <!-- Additional content goes here -->
+                            <ul class="r">
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">1</div>
+                                    <div class="grean">2</div>
+                                    <div class="grean">3</div>
+                                    <div class="grean">4</div>
+                                    <div class="grean">5</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Amal Al-Khalidi</div>
+                                    <div>Bilal Al-Farsi</div>
+                                    <div>Samira Al-Ahmadi</div>
+                                    <div>Rafiq Al-Nassar</div>
+                                    <div>Mona Al-Mousa</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">6</div>
+                                    <div class="grean">7</div>
+                                    <div class="grean">8</div>
+                                    <div class="grean">9</div>
+                                    <div class="grean">10</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Zayd Al-Fahd</div>
+                                    <div>Dina Al-Hashmi</div>
+                                    <div>Anwar Al-Mazroui</div>
+                                    <div>Dana Al-Azizi</div>
+                                    <div>Ahmed Al-Rashid</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">11</div>
+                                    <div class="grean">12</div>
+                                    <div class="grean">13</div>
+                                    <div class="grean">14</div>
+                                    <div class="grean">15</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Amina Alhadi</div>
+                                    <div>Khaled Alsaeedi</div>
+                                    <div>Khaled Abdullah</div>
+                                    <div>Mona Abdullah</div>
+                                    <div>Norah Abdullah</div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class=" course-card" id="t9">
+                      <h3>Electronics by Salem Albuaij</h3>
+                      <div >
+                        <a class="view-more" data-visible="false">Registered Children ▼</a>
+                        <div class="additional-content" style="display: none;">
+                            <!-- Additional content goes here -->
+                            <ul class="r">
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">1</div>
+                                    <div class="grean">2</div>
+                                    <div class="grean">3</div>
+                                    <div class="grean">4</div>
+                                    <div class="grean">5</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Zainab Hamdi</div>
+                                    <div>Tariq Al-Mansoor</div>
+                                    <div>Mariam Khoury</div>
+                                    <div>Adam Salim</div>
+                                    <div>Samira Fawzi</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">6</div>
+                                    <div class="grean">7</div>
+                                    <div class="grean">8</div>
+                                    <div class="grean">9</div>
+                                    <div class="grean">10</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Youssef Aziz</div>
+                                    <div>Leila Qasim</div>
+                                    <div>Bilal Nizar</div>
+                                    <div>Noor Badawi</div>
+                                    <div>Kareem Al-Hakim</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">11</div>
+                                    <div class="grean">12</div>
+                                    <div class="grean">13</div>
+                                    <div class="grean">14</div>
+                                    <div class="grean">15</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Aisha Abbas</div>
+                                    <div>Rayan Hariri</div>
+                                    <div>Layla Al-Qasim</div>
+                                    <div>Idris Saad</div>
+                                    <div>Hana Al-Farsi</div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class=" course-card" id="t10">
+                      <h3>Website design fundamentals by Waleed Alqahtani</h3>
+                      <div >
+                        <a class="view-more" data-visible="false">Registered Children ▼</a>
+                        <div class="additional-content" style="display: none;">
+                            <!-- Additional content goes here -->
+                            <ul class="r">
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">1</div>
+                                    <div class="grean">2</div>
+                                    <div class="grean">3</div>
+                                    <div class="grean">4</div>
+                                    <div class="grean">5</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Ahmed Khalil</div>
+                                    <div>Layla Mohamed</div>
+                                    <div>Yousef Jamal</div>
+                                    <div>Leila Farid</div>
+                                    <div>Noura Said</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">6</div>
+                                    <div class="grean">7</div>
+                                    <div class="grean">8</div>
+                                    <div class="grean">9</div>
+                                    <div class="grean">10</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Omar Salah</div>
+                                    <div>Mia Hani</div>
+                                    <div>Rania Nasser</div>
+                                    <div>Mohammed Adel</div>
+                                    <div>Lina Ahmed</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">11</div>
+                                    <div class="grean">12</div>
+                                    <div class="grean">13</div>
+                                    <div class="grean">14</div>
+                                    <div class="grean">15</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Aisha Ali</div>
+                                    <div>Khaled Mansour</div>
+                                    <div>Sara Ahmed</div>
+                                    <div>Amir Abdullah</div>
+                                    <div>Mona Nasser</div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class=" course-card" id="t11">
+                      <h3>Game Design by Reema Alsubai</h3>
+                      <div >
+                        <a class="view-more" data-visible="false">Registered Children ▼</a>
+                        <div class="additional-content" style="display: none;">
+                            <!-- Additional content goes here -->
+                            <ul class="r">
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">1</div>
+                                    <div class="grean">2</div>
+                                    <div class="grean">3</div>
+                                    <div class="grean">4</div>
+                                    <div class="grean">5</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Ali Mahmoud</div>
+                                    <div>Fatima Hassan</div>
+                                    <div>Omar Alawi</div>
+                                    <div>Noura Khalid</div>
+                                    <div>Mohammed Saleh</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">6</div>
+                                    <div class="grean">7</div>
+                                    <div class="grean">8</div>
+                                    <div class="grean">9</div>
+                                    <div class="grean">10</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Layla Ahmed</div>
+                                    <div>Khalid Ali</div>
+                                    <div>Rana Abdullah</div>
+                                    <div>Khaled Aljabri</div>
+                                    <div>Amina Mansour</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">11</div>
+                                    <div class="grean">12</div>
+                                    <div class="grean">13</div>
+                                    <div class="grean">14</div>
+                                    <div class="grean">15</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Mia Khalid</div>
+                                    <div>Zayd Ahmed</div>
+                                    <div>Aisha Abdullah</div>
+                                    <div>Khaled Ibrahim</div>
+                                    <div>Lina Mansour</div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class=" course-card" id="t12">
+                      <h3>Problem solving by Majeddah Altamimi</h3>
+                      <div >
+                        <a class="view-more" data-visible="false">Registered Children ▼</a>
+                        <div class="additional-content" style="display: none;">
+                            <!-- Additional content goes here -->
+                            <ul class="r">
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">1</div>
+                                    <div class="grean">2</div>
+                                    <div class="grean">3</div>
+                                    <div class="grean">4</div>
+                                    <div class="grean">5</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Ziad Al-Amiri</div>
+                                    <div>Lina Qasim</div>
+                                    <div>Ammar Nassar</div>
+                                    <div>Fatima Rizk</div>
+                                    <div>Amir Al-Talib</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">6</div>
+                                    <div class="grean">7</div>
+                                    <div class="grean">8</div>
+                                    <div class="grean">9</div>
+                                    <div class="grean">10</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Dalia Nassif</div>
+                                    <div>Omar Al-Mazroui</div>
+                                    <div>Nada Al-Khalil</div>
+                                    <div>Ali Al-Jabari</div>
+                                    <div>Yasmin Al-Zahiri</div>
+                                </li>
+                                <li>
+                                    <div class="blue">No.</div>
+                                    <div class="grean">11</div>
+                                    <div class="grean">12</div>
+                                    <div class="grean">13</div>
+                                    <div class="grean">14</div>
+                                    <div class="grean">15</div>
+                                </li>
+                                <li>
+                                    <div class="blue">Name</div>
+                                    <div>Nasser Al-Mansoori</div>
+                                    <div>Salma Al-Ghazali</div>
+                                    <div>Hamza Al-Husseini</div>
+                                    <div>Yasir Al-Riyami</div>
+                                    <div>Safa Al-Farsi</div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    </div>
+                  </li>
+                  </ul> 
+                  </div>
+            </div>
+            <div class="center-wrapper">
+                <button class="view-more2" data-visible="false">View More</button>
+            </div>
+        </div>
+        <br>
+        </div>
+
+
+        <div class="alltutors">
+          <h2>Tutors’ list</h2>
+          <ul class="remul">
+              <li>
+                  <div class="card1">
+                      <a href="schedule1.html">Ahmad Alghamdi</a><br><br>
+                      <img src="images/ahmad.png" alt="Person Icon">
+                      <div class="leftAline">
+                          <h4>Courses:</h4>
+                          <ul>
+                              <li>Web development</li>
+                              <li>Python programming</li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="card1">
+                      <a href="schedule1.html">Reema Alsubai</a><br><br>
+                      <img src="images/reema.png" alt="Person Icon">
+                      <div class="leftAline">
+                          <h4>Courses:</h4>
+                          <ul>
+                              <li>Game Design</li>
+                              <li>Mobile App Development</li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="card1">
+                      <a href="schedule1.html">Salem Albuaij</a><br><br>
+                      <img src="images/salem.png" alt="Person Icon">
+                      <div class="leftAline">
+                          <h4>Courses:</h4>
+                          <ul>
+                              <li>Animation Design</li>
+                              <li>Electronics</li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="card1">
+                      <a href="Schedule2.html">Waleed Alqahtani</a><br><br>
+                      <img src="images/waleed.png" alt="Person Icon">
+                      <div class="leftAline">
+                          <h4>Courses:</h4>
+                          <ul>
+                              <li>Scratch programming</li>
+                              <li>Website design fundamentals</li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="card1">
+                      <a href="Schedule2.html">Mariam Alyami</a><br><br>
+                      <img src="images/mariam.png" alt="Person Icon">
+                      <div class="leftAline">
+                          <h4>Courses:</h4>
+                          <ul>
+                              <li>Games development</li>
+                              <li>Robotics</li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="card1">
+                      <a href="Schedule2.html">Majeddah Altamimi</a><br><br>
+                      <img src="images/majedah.png" alt="Person Icon">
+                      <div class="leftAline">
+                          <h4>Courses:</h4>
+                          <ul>
+                              <li>Programming fundamentals</li>
+                              <li>Problem solving</li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+          <br><br>
+      </div>
+      </main>
+        
+      <footer id="dark-footer">
+          <p id="footer1">© 2023, CodeCubs</p>
+          <p id="footer2">
+              CodeCubs<br> 
+              4254 North Alia Avenue<br> 
+              Riyadh, AZ 85251 KSU<br> 
+              110.405.2734 tel<br> 
+              CodeCubs@mail.com
+          </p>
+        
+          
+          <div class="social-media-icons">
+              <a href=""><img src="images/instegram.png" alt="instagram"></a>
+              <a href=""><img src="images/facebook.png" alt="facebook"></a>
+              <a href=""><img src="images/x.png" alt="x"></a>
+          </div>
+        
+        </footer>
+    </body>
+</html>
